@@ -25,7 +25,7 @@ class Network
   def payroll
     all_characters.reduce({}) do |actor, character|
       actor[character.actor] = character.salary
-    actor
+      actor
     end
   end
 end
