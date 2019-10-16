@@ -8,6 +8,6 @@ class Character
   end
 
   def salary
-    @salary.to_s.gsub("_", "").to_i
+    @salary.to_s.delete("_").to_i
   end
 end
